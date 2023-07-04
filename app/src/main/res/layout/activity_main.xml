@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কেনা দাম কত "
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#D0ECB8"
+        />
+
+    <EditText
+        android:id="@+id/edBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Buying Price"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কত টাকায় বিক্রি করেছেন"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#D0ECB8"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edSell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Selling Price"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="হিসাব করুন"
+        />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>
